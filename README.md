@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎵 Music Platform Frontend
 
-## Getting Started
+This is the frontend for the Music Platform built using Next.js, Auth.js, ShadCN, Tailwind CSS, and TypeScript.
 
-First, run the development server:
+## 🚀 Features
+- **Next.js 14** – Fast and optimized React framework
+- **Auth.js** – Secure authentication and session management
+- **ShadCN** – Pre-built UI components with Radix
+- **Tailwind CSS** – Utility-first CSS for easy styling
+- **TypeScript** – Static typing for better development experience
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 📦 Tech Stack
+- **Framework:** Next.js
+- **Authentication:** Auth.js
+- **UI Components:** ShadCN (Radix-based components)
+- **Styling:** Tailwind CSS
+- **Language:** TypeScript
+
+## 🛠️ Setup & Installation
+### Prerequisites
+- Node.js (Latest LTS recommended)
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/AarambhDevHub/music-pathform-frontend.git
+   cd music-platform-frontend
+   ```
+2. Install dependencies:
+   ```sh
+   npm install  # or yarn install
+   ```
+3. Create a `.env` file and configure environment variables:
+   ```sh
+   API_BASE_URL= BACKEND_URL_WITH_SLCE_API
+   ```
+4. Run the development server:
+   ```sh
+   npm run dev  # or yarn dev
+   ```
+
+## 🔐 Authentication Setup
+This project uses **Auth.js** for authentication. You can configure providers such as Google, GitHub, or custom credentials in `src/app/api/auth/[...nextauth].ts`.
+
+## 🎨 Styling
+Tailwind CSS is used for styling with utility classes. ShadCN components provide pre-styled UI elements.
+
+## 🚀 Deployment
+To deploy the application:
+```sh
+npm run build  # or yarn build
 ```
+Then deploy on **Vercel**, **Netlify**, or your preferred hosting provider.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 📜 License
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for more details.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Donations
 
-## Learn More
+If you find this project useful and would like to support its continued development, you can make a donation via [Buy Me a Coffee](https://buymeacoffee.com/aarambhdevhub).
 
-To learn more about Next.js, take a look at the following resources:
+Thank you for your support!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Happy coding! 🎧🚀
