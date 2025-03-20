@@ -18,7 +18,7 @@
 
 # misc
 .DS_Store
-*.pem
+# *.pem
 
 # debug
 npm-debug.log*
@@ -35,4 +35,4 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-certificates
+# certificates
